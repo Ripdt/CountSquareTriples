@@ -1,8 +1,9 @@
+
 # Approach
-For each value $$a$$ where $$1 <= a <= n$$, the algorithm has to square it up and sum with each value between $$a + 1$$ and $$n$$. When the sum results in a value that it's a perfect square less or equal $$n$$, the counter increments itself by $$2$$, because it found two new square triplets.
+For each value $a$ where $1 <= a <= n$, the algorithm has to square it up and sum with each value between $a + 1$ and $n$. When the sum results in a value that it's a perfect square less or equal $n$, the counter increments itself by $2$, because it found two new square triplets.
 
 # Complexity
-- Time complexity: $$O(n²)$$
+- Time complexity: $O(n²)$
 
 # Code
 ```
